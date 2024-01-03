@@ -65,8 +65,21 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
+create laravel
+
 xampp/htdocs/sites/livewire_PzPo5Ky2mRc
 
 https://www.youtube.com/watch?v=PzPo5Ky2mRc
 
 Code With Dary
+
+composer require livewire/livewire
+
+https://github.com/codewithdary/hostinger-livewire-template/blob/master/resources/views/layouts/nav.blade.php
+
+create layouts/app.blade.php; layouts/nav.blade.php; layouts/footer.blade.php
+
+php artisan livewire:publish --config
+php artisan livewire:make TaskCreate
+
+http://127.0.0.1:8000/tasks/index
