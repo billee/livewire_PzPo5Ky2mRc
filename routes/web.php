@@ -1,5 +1,6 @@
 <?php
 
+use App\Livewire\Tasks\TaskShow;
 use App\Livewire\Tasks\TaskIndex;
 use App\Livewire\Tasks\TaskCreate;
 use Illuminate\Support\Facades\Route;
@@ -21,3 +22,4 @@ Route::get('/', function () {
 
 Route::get('/tasks/create', TaskCreate::class);
 Route::get('/tasks/index', TaskIndex::class);
+Route::get('/tasks/{task}', TaskShow::class);
